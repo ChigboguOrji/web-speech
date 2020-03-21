@@ -7,8 +7,8 @@ export default function Header() {
     <Navbar expand="lg" variant="dark" bg="dark" className="shadow">
       <Container fluid>
         <Navbar.Brand>
-          <Image fluid width="90" height="70" src={Logo} className="d-inline-block align-bottom"/>
-          <span className="h1 d-inline-block ml-lg-2" style={{fontFamily:"cursive"}}>Web Speech</span>
+          <Image width="90px" height="50px" src={Logo} className="d-inline-block align-bottom"/>
+          <span className="h3 d-inline-block ml-lg-1" style={{fontFamily:"cursive"}}>Web Speech</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="nav" />
         <Navbar.Collapse id="nav" className="justify-content-end">
