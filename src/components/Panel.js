@@ -61,7 +61,7 @@ export default function Panel() {
               rows="7"
               placeholder="Start typing..."
               value={text}
-              onInput={e => setText(e.target.value)}
+              onChange={e => setText(e.target.value)}
               minLength="1"
               maxLength="32767"
               autoCapitalize="characters"
