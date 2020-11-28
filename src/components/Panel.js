@@ -34,7 +34,7 @@ export default function Panel() {
     if (!speechSupport) return;
     if (!synthesis.onvoiceschanged) synthesis.onvoiceschanged = voicechanged;
     voicechanged();
-  }, []);
+  },[]);
 
   return (
     <Form>
